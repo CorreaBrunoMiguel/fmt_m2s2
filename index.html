@@ -1,18 +1,365 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
 
     <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts Awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js"></script>
+
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ------------- -->
+    <!-- Início Header -->
+    <!-- ------------- -->
+
+    <header class="header">
+      <a href="" class="logo">
+        <img src="images/logo-color.jpg" alt="" />
+      </a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formações</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+    <!-- Fim Header  -->
+
+    <!-- Início Home -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>
+          Olá, me chamo <br />
+          <span>Bruno Miguel Corrêa</span>
+        </h1>
+        <div class="text-animate">
+          <h3>Frontend Developer</h3>
+          <h3>Data Analytics</h3>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+          illo rem molestias magni architecto, neque eos assumenda accusantium
+          quia doloribus fuga. Doloremque harum dolore reprehenderit aut est.
+          Quam voluptate recusandae laboriosam dolore odit, pariatur culpa eos
+          dignissimos quibusdam. Quisquam, voluptatibus.
+        </p>
+
+        <div class="btn-box">
+          <a href="#" class="btn">Donwload CV</a>
+          <a href="#" class="btn">Contato</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+        <a href="#"><i class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-imgHover"></div>
+    </section>
+    <!-- Fim Home -->
+
+    <!-- Início Sobre -->
+    <section class="about" id="sobre">
+      <h2 class="heading">Sobre <span>Mim</span></h2>
+
+      <div class="about-img">
+        <img src="" alt="" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>Frontend Developer!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          temporibus atque ea odio placeat. Iure, illo officia. Fuga, non hic!
+        </p>
+        <h3>Data Analytics</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, atque
+          tenetur repudiandae nesciunt magnam id iste reiciendis praesentium
+          dolorum! Repellendus, ipsa iusto? Sit dignissimos similique voluptatum
+          nam aut odio repellat dolorem doloremque, aliquid at.
+        </p>
+
+        <div class="btn-box btns">
+          <a href="#" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+    </section>
+    <!-- Fim Sobre -->
+
+    <!-- Início Formação -->
+    <section class="formacao" id="formacao">
+      <h2 class="heading">Minha <span>Jornada</span></h2>
+
+      <div class="formacao-row">
+        <div class="formacao-column">
+          <h3 class="title">Jornada</h3>
+
+          <div class="formacao-box">
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2011-2015
+                </div>
+                <h3>Engenharia de Materiais - UFSC</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2018-2021
+                </div>
+                <h3>ADS - Estácio de Sá - SC</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2022-2023
+                </div>
+                <h3>Profissionalizante Analista de Dados - Ebac</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="formacao-column">
+          <h3 class="title">Experience</h3>
+
+          <div class="formacao-box">
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2012-2012
+                  <i class="bx bxs-city"></i>
+                  Braço do Trombudo - SC
+                </div>
+                <h3>Estudos Metalográficos - Ind. Rex</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2013-2013
+                  <i class="bx bxs-city"></i>
+                  Rio do Sul - SC
+                </div>
+                <h3>Cadista - Metalúrgica Riossulense</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+
+            <div class="formacao-content">
+              <div class="content">
+                <div class="year">
+                  <i class="bx bxs-calendar"></i>
+                  2014-2014
+                  <i class="bx bxs-city"></i>
+                  São Carlos - SP
+                </div>
+                <h3>Testes de Qualidade - Tecumseh</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid doloremque id excepturi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fim Formacao -->
+
+    <!-- Inicio Habilidades-->
+    <section class="skills" id="skills">
+      <h2 class="heading">Minhas <span>Habilidades</span></h2>
+
+      <div class="skills-row">
+
+        <div class="skills-column">
+
+          <h3 class="title">Coding Skills</h3>
+
+          <div class="skills-box">
+
+            <div class="skills-content">
+
+              <div class="progr">
+                <h3>HTML <span>90%</span></h3>
+                <div class="bar"> <span></span></div>
+              </div>
+
+              <div class="progr">
+                <h3>CSS <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progr">
+                <h3>Java <span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progr">
+                <h3>JavasCRIPT <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progr">
+                <h3>Python <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+
+          <h3 class="title">Professional Skills</h3>
+
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progr">
+                <h3>Data Analysis <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+              <div class="progr">
+                <h3>Spring Boot <span>80%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+              <div class="progr">
+                <h3>Boostrap <span>65%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+              <div class="progr">
+                <h3>Business Inteligence <span>70%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+              <div class="progr">
+                <h3>Web Developer <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Fim Habilidades-->
+
+    <!-- Inicio Contato-->
+    <section class="contato" id="contato">
+      <h2 class="heading">Contate <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+
+          <div class="input-field">
+            <input type="text" placeholder="Nome completo" required>
+            <span class="focus"></span>
+          </div>
+          
+          <div class="input-field">
+            <input type="email" placeholder="Email" required>
+            <span class="focus"></span>
+          </div>
+
+          <div class="input-field">
+            <input type="tel" placeholder="Telefone Celular" required>
+            <span class="focus"></span>
+          </div>
+
+          <div class="input-field">
+            <input type="tel" placeholder="Telefone" required>
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <!-- Fim Contato-->
+
+    <!-- Início Footer -->
+    <footer class="footer">
+
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 by Bruno Miguel Corrêa | Todos os direitos reservados.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+    <!-- Fim Footer -->
 
     <!-- Bootstrap JS -->
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    ></script>
+
+    <!-- JS Script-->
+    <script src="js/script.js"></script>
+  </body>
 </html>
